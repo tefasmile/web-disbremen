@@ -1,0 +1,128 @@
+/*
+Theme name: DBremen
+Theme URI: http://dbremen.com
+Description: Este es el tema de wp para distribuidora bremen
+Version: 1.0;
+*/
+
+a{
+	color: tomato;
+}
+
+body{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	background: #98C116;
+	height: 150px;
+}
+
+h3{
+	cursor: pointer;
+}
+
+nav{
+	background-color: #959595;
+	height: 8vh;
+}
+
+.nav__list{
+	display: table-cell;
+}
+
+.nav__list li{
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	padding-left: 1.2em;
+	margin-top: 1.5em;
+}
+
+.contenedor{
+	padding: 1.2em;
+}
+
+.contenedor_item{
+	max-width: 1000px;
+	margin: 1.5em 1em;
+	border-bottom: 1px solid steelblue;
+}
+
+.page{
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+
+.image{
+	border: 1px solid steelblue;
+}
+
+@media all and (min-width: 768px){
+	article{
+		display: inline-block;
+		width: 30%;
+	}
+}
+
+footer{
+	background-color: tomato;
+}
+
+.footer-landing{
+	background-color: #A6B1B6;
+}
+
+.footer-landing li{
+	display: inline-block;
+	color: white;
+}
+
+.blog{
+	background-color: red;
+}
+
+.productos{
+	background-color: #BBBBEA;
+}
+
+.sidebar{
+	width: 68%;
+	display: table-cell;
+}
+
+.sidebar__item{
+	display: flex;
+	justify-content: space-around;
+}
+
+.table{
+	display: table;
+}
+
+.nav--footer{
+	
+}
+
+.nav--footer__list{
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: table;
+	table-layout: fixed;
+	text-align: center;
+}
+
+.nav--footer__list li{
+	display: table-cell;
+	font-size: 1.2em;
+}
+
+.nav--blog{
+	border: 2px solid purple;
+	border-radius: 15px;
+}

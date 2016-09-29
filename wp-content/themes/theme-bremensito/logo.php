@@ -1,0 +1,2 @@
+<p>Esto es el contenido de LOGO.PHP</p>
+<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt neque culpa omnis et atque animi aliquid repellendus. Qui a, perferendis officia sit placeat veniam. Perspiciatis facere illum architecto, quis nisi.</small></p>
